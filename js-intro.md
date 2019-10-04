@@ -5,7 +5,9 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. What is a function? Why would you use one?
 
-  Your answer:
+  Your answer: 
+  
+    A function is a way 
 
   Researched answer:
 
