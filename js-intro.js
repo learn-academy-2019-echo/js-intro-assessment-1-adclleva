@@ -3,7 +3,7 @@
 
 // --------------------------- Consider the following variable:
 
-var mantra = "Be the dev"
+var mantra = "Be the developer."
 
 // 1a. Write the code that determines if there is a 'B' in mantra.
 
