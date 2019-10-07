@@ -4,7 +4,7 @@
 
 // --------------------------- Consider the following variable:
 
-var mantra = "Be the dev"
+var mantra = "Be the dev."
 
 // 1a. Write the code that determines if there is a 'B' in mantra.
     console.log("\n1a.------------------------------")
@@ -58,7 +58,7 @@ var myCat = "Garfield";
   console.log("\n2b.------------------------------");
 
   const stringsToArr = (...strings) => {
-    return [...strings];
+    return strings;
   };
   console.log(stringsToArr(myDog, myCat));
 
@@ -66,7 +66,7 @@ var myCat = "Garfield";
   console.log("\n2c.------------------------------");
 
   const allLowerCase = (...strings) => {
-    return ([...strings]).join(" ").toLowerCase();
+    return strings.join(" ").toLowerCase(); // you you put the spread in the parameters you can call the variable which is an array
   }
 
   console.log(allLowerCase(myDog, myCat));
@@ -145,7 +145,8 @@ const removeVowel2 = (string) => {
 
 console.log("Second way of solving this problem:", removeVowel2(testString));
 
-// 4b. STRETCH: Update your function to return an error message if the variable is not a string. Copy and paste your function to add these changes.
+// 4b. STRETCH: Update your function to return an error message if the variable is not a string. 
+//     Copy and paste your function to add these changes.
 console.log("\n4b.------------------------------");
 
 var notAString = 7
